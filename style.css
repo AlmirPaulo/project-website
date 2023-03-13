@@ -1,5 +1,17 @@
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Great+Vibes&display=swap');
 
   .slogan{
-    font-family:'Great Vibes'
+    font-family:'Great Vibes';
+  }
+
+  .logo{
+    border-radius:50%;
+  }
+
+  body{
+    background: #ccf;
+  }
+
+  .fmp{
+    font-family:'Arvo';
   }
