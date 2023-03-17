@@ -1,22 +1,23 @@
+<script src="validations.js"></script>
 <center>
   <div class="row">
   <div class="col-sm"></div>
   <div class="col-sm">
-  <form  action="">
+  <form  action="#" method="POST">
     <div class="m-2">
       <label for="name">Name</label>
-      <input class="form-control bg-secondary" type="text">
+      <input class="form-control bg-secondary" type="text" id="name" />
     </div>
     <div class="m-2">
       <label for="email">Email</label>
-      <input class="form-control bg-secondary" type="text">
+      <input class="form-control bg-secondary" type="text" id="email" />
     </div>
     <div class="m-2">
       <label for="subject">Subject</label>
-      <input class="form-control bg-secondary" type="text">
+      <input class="form-control bg-secondary" type="text" id="subject" /> 
     </div>
-    <textarea id="" class="form-control bg-secondary" name="" cols="20" rows="10"></textarea>
-    <button class="btn btn-lg btn-outline-dark m-2">Send</button>
+    <textarea id="msg" class="form-control bg-secondary" name="" cols="20" rows="10" required></textarea>
+    <button type="submit" class="btn btn-lg btn-outline-dark m-2" onclick=validation()>Send</button>
   </form>
   </div>
   <div class="col-sm"></div>
